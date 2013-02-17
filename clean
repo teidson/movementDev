@@ -1,0 +1,9 @@
+rm MitchellDetail.o
+rm MovementAcquire.o
+rm MovementErrorCheck.o
+rm MovementModule.o
+rm movement_module.o
+rm libMovement.dylib
+rm movement_main.o
+rm testm
+

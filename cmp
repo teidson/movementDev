@@ -1,0 +1,12 @@
+g++ -c MitchellDetail.cpp
+g++ -c MovementAcquire.cpp
+g++ -c MovementModule.cpp
+g++ -c MovementErrorCheck.cpp
+gcc -c movement_module.c
+g++ -dynamiclib \
+    movement_module.o MovementModule.o MovementAcquire.o MitchellDetail.o \
+    MovementErrorCheck.o -o libMovement.dylib
+gcc -c movement_main.c
+#g++ -o testm *.o
+g++ -o testm movement_main.o -L. -lMovement
+

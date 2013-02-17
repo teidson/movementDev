@@ -1,0 +1,110 @@
+
+Debug:  Check Structure Always
+
+
+Debug:  Calculate Movement
+
+r: 5 mP0/1: 0 8
+
+===== Test:  Mitchell Movement Generation =====
+
+Input:
+
+ Game Type:     1
+
+ Tables:        8
+ Rounds:        8
+ Boards:        8
+ Board Per Set: 1
+ Start Table:   4
+ Start E/W:     5
+ Skip Round:    4
+
+ Phantom Pair:  0
+ Byestand: (1)  0
+ Barometer:     0
+ One Winner:    0
+ XML File:      DummyFile
+ Relay Table:   *** Not Available ***
+ Rover Pair:    *** Not Available ***
+
+Output:
+
+ Error Code:    0
+ Array Size:    3600
+
+*** Round: 1 
+ 1  2  6 
+ 2  3  7 
+ 3  4  8 
+ 4  5  1 
+ 5  6  2 
+ 6  7  3 
+ 7  8  4 
+ 8  1  5 
+*** Round: 2 
+ 1  1  7 
+ 2  2  8 
+ 3  3  1 
+ 4  4  2 
+ 5  5  3 
+ 6  6  4 
+ 7  7  5 
+ 8  8  6 
+*** Round: 3 
+ 1  8  8 
+ 2  1  1 
+ 3  2  2 
+ 4  3  3 
+ 5  4  4 
+ 6  5  5 
+ 7  6  6 
+ 8  7  7 
+*** Round: 4 
+ 1  7  1 
+ 2  8  2 
+ 3  1  3 
+ 4  2  4 
+ 5  3  5 
+ 6  4  6 
+ 7  5  7 
+ 8  6  8 
+*** Round: 5 
+ 1  5  2 
+ 2  6  3 
+ 3  7  4 
+ 4  8  5 
+ 5  1  6 
+ 6  2  7 
+ 7  3  8 
+ 8  4  1 
+*** Round: 6 
+ 1  4  3 
+ 2  5  4 
+ 3  6  5 
+ 4  7  6 
+ 5  8  7 
+ 6  1  8 
+ 7  2  1 
+ 8  3  2 
+*** Round: 7 
+ 1  3  4 
+ 2  4  5 
+ 3  5  6 
+ 4  6  7 
+ 5  7  8 
+ 6  8  1 
+ 7  1  2 
+ 8  2  3 
+*** Round: 8 
+ 1  2  5 
+ 2  3  6 
+ 3  4  7 
+ 4  5  8 
+ 5  6  1 
+ 6  7  2 
+ 7  8  3 
+ 8  1  4 
+=====
+done
+=====

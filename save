@@ -1,0 +1,4 @@
+cp *.h   Sav
+cp *.c   Sav
+cp *.cpp Sav
+cp clean cmp cmpg go inMove Sav

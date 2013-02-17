@@ -1,0 +1,19 @@
+8
+8
+8
+1
+8
+4
+4
+5
+
+0000000000000000000000000000000000000000000
+ntables               = 
+nboards_in_play       = 
+nrounds               = 
+nboards_per_round     = 
+max_boards_played     = nboards_in_play
+skip_after_this_round = 
+table_board_1_starts_at = 
+ew_pair_playing_board_1 = 
+
